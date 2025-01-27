@@ -10,7 +10,7 @@ export default withNuxt(
             "no-useless-rename": "error",
             "prefer-const": "error",
             "require-await": "error",
-            "vue/block-lang": ["error", { script: { lang: "ts" }, style: { lang: "scss" } }],
+            "vue/block-lang": ["error", { script: { lang: "ts" }, style: { lang: "css" } }],
             "vue/block-order": ["error", { order: ["script", "template", "style"] }],
             "vue/html-indent": ["error", 4],
             "vue/max-attributes-per-line": ["error", { singleline: { max: 5 }, multiline: { max: 1 } }],
