@@ -12,6 +12,7 @@ export default withNuxt(
             "require-await": "error",
             "vue/block-lang": ["error", { script: { lang: "ts" }, style: { lang: "css" } }],
             "vue/block-order": ["error", { order: ["script", "template", "style"] }],
+            "vue/comma-dangle": ["error", "never"],
             "vue/html-indent": ["error", 4],
             "vue/max-attributes-per-line": ["error", { singleline: { max: 5 }, multiline: { max: 1 } }],
             "vue/multi-word-component-names": "off",
