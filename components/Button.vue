@@ -51,6 +51,7 @@ const hasClickEventListener = computed(() => Boolean(getCurrentInstance()?.vnode
         <component
             :is="'Icon' + icon"
             v-if="icon"
+            variant="light"
             class="w-6 h-6"
             :class="{ '[&>path]:fill-[#065fd4]': variant === 'cta' }"
         />
