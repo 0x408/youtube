@@ -12,6 +12,14 @@ export default defineNuxtConfig({
         ]
     },
     devtools: { enabled: true },
+    experimental: {
+        defaults: {
+            nuxtLink: {
+                activeClass: "",
+                exactActiveClass: ""
+            }
+        }
+    },
     compatibilityDate: "2024-11-01",
     eslint: {
         config: {
