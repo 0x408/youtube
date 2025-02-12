@@ -42,7 +42,7 @@ const hasClickEventListener = computed(() => Boolean(getCurrentInstance()?.vnode
             'w-fit h-9 px-[15px] rounded-[18px]': label,
             'w-10 h-10 rounded-full': !label,
             'pl-[9px] gap-[6px]': label && icon,
-            'cursor-pointer': hasClickEventListener,
+            'cursor-default': !to && !hasClickEventListener,
             'bg-[rgba(0,0,0,0.05)] hover:bg-[rgba(0,0,0,0.1)]': variant === 'default',
             'hover:bg-[rgba(0,0,0,0.05)]': variant === 'transparent',
             'border border-[rgba(0,0,0,0.1)] hover:bg-[#def1ff] hover:border-transparent ': variant === 'cta'
