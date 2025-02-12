@@ -24,7 +24,7 @@ defineProps({
         default: ""
     },
     to: {
-        type: String as PropType<string | RouteLocationAsRelativeGeneric | RouteLocationAsPathGeneric>
+        type: [String, Object] as PropType<string | RouteLocationAsRelativeGeneric | RouteLocationAsPathGeneric>
     }
 });
 
