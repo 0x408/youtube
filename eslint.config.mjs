@@ -9,6 +9,7 @@ export default withNuxt(
             "no-useless-rename": "error",
             "prefer-const": "error",
             "require-await": "error",
+            "vue/attribute-hyphenation": ["error", "never"],
             "vue/block-lang": ["error", { script: { lang: "ts" }, style: { lang: "css" } }],
             "vue/block-order": ["error", { order: ["script", "template", "style"] }],
             "vue/comma-dangle": ["error", "never"],
@@ -20,6 +21,7 @@ export default withNuxt(
                 ignoreWhenEmpty: true,
                 externalIgnores: ["h1", "h2", "h3", "h4", "h5", "h6"]
             }],
+            "vue/v-on-event-hyphenation": ["error", "never"],
             "@stylistic/comma-dangle": ["error", "never"],
             "@stylistic/indent": ["error", 4],
             "@stylistic/quotes": ["error", "double"],
