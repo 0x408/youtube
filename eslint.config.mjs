@@ -24,7 +24,8 @@ export default withNuxt(
             "@stylistic/indent": ["error", 4],
             "@stylistic/quotes": ["error", "double"],
             "@stylistic/semi": ["error", "always"],
-            "@stylistic/semi-style": ["error", "last"]
+            "@stylistic/semi-style": ["error", "last"],
+            "@typescript-eslint/unified-signatures": "off"
         }
     }
 );
