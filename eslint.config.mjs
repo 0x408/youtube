@@ -6,7 +6,6 @@ export default withNuxt(
             "eqeqeq": ["error", "always"],
             "no-console": "warn",
             "no-lonely-if": "error",
-            "no-unused-vars": ["warn"],
             "no-useless-rename": "error",
             "prefer-const": "error",
             "require-await": "error",
