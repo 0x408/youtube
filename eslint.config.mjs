@@ -25,6 +25,10 @@ export default withNuxt(
             "vue/v-on-event-hyphenation": ["error", "never"],
             "@stylistic/comma-dangle": ["error", "never"],
             "@stylistic/indent": ["error", 4],
+            "@stylistic/member-delimiter-style": ["error", {
+                multiline: { delimiter: "semi", requireLast: true },
+                singleline: { delimiter: "semi", requireLast: true }
+            }],
             "@stylistic/quotes": ["error", "double"],
             "@stylistic/semi": ["error", "always"],
             "@stylistic/semi-style": ["error", "last"],
